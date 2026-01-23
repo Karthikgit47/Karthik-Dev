@@ -8,7 +8,8 @@ const Navbar = ({setCategory, category}) => {
   const data = ['latest', 'flash', 'breaking'];
   console.log(data);
   
-  
+      // "auto:git": "chokidar \"src/**/*\" -i \"**/node_modules/**\" -c \"git add . && git commit -m autosave\"",
+
   
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
