@@ -4,6 +4,7 @@ const Navbar = ({setCategory, category}) => {
 
   const categories = ['technology', 'business', 'health', 'sports', 'entertainment'];
   
+  
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
   <div className="container-fluid">
@@ -14,6 +15,7 @@ const Navbar = ({setCategory, category}) => {
 
          {categories.map(cat => (
               <li className="nav-item" key={cat}>
+                
                 <div
                   className={`nav-link ${category === cat ? 'active' : ''}`}
                   style={{ cursor: 'pointer' }}
