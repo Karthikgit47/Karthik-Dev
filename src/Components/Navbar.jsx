@@ -4,6 +4,10 @@ const Navbar = ({setCategory, category}) => {
 
   const categories = ['technology', 'business', 'health', 'sports', 'entertainment'];
   console.log("Data categories", categories);
+
+  const data = ['latest', 'flash', 'breaking'];
+  console.log(data);
+  
   
   
   return (
