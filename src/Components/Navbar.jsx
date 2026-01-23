@@ -3,6 +3,7 @@ import React from 'react'
 const Navbar = ({setCategory, category}) => {
 
   const categories = ['technology', 'business', 'health', 'sports', 'entertainment'];
+  console.log("Data categories", categories);
   
   
   return (
