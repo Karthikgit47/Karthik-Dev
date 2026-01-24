@@ -1,9 +1,10 @@
 {
-  "actionButtons.commands": [
+  "vscode-action-buttons.buttons": [
     {
-      "name": "Create Branch & Save",
+      "text": "Create Branch & Save",
       "command": "workbench.action.tasks.runTask",
-      "args": "Create Branch & Save to Git",
+      "arguments": ["Create Branch & Save to Git"],
+      "tooltip": "Click to create a new branch, commit and push changes",
       "color": "#00ff00"
     }
   ]

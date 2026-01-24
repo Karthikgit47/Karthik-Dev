@@ -10,9 +10,16 @@ git checkout -b $BRANCH
 git add .
 
 # Commit changes
-git commit -m "save before feature work"
+if git diff --cached --quiet; then
+  echo "⚠ No changes to commit"
+else
+  git commit -m "save before feature work"
+fi
+
 
 # Push branch to remote
 git push -u origin $BRANCH
 
 echo "✔ Branch '$BRANCH' created, committed, and pushed!"
+
+

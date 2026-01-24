@@ -5,14 +5,10 @@
       "label": "Create Branch & Save to Git",
       "type": "shell",
       "command": "C:\\Program Files\\Git\\bin\\bash.exe",
-      "args": ["git-create-branch.sh"],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "presentation": {
-        "reveal": "always",
-        "panel": "shared"
-      }
+      "args": ["${workspaceFolder}/git-create-branch.sh"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
     }
   ]
 }
