@@ -1,0 +1,10 @@
+{
+  "actionButtons.commands": [
+    {
+      "name": "Create Branch & Save",
+      "command": "workbench.action.tasks.runTask",
+      "args": "Create Branch & Save to Git",
+      "color": "#00ff00"
+    }
+  ]
+}
