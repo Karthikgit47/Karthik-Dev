@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Create Branch & Save to Git",
+      "type": "shell",
+      "command": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["${workspaceFolder}/git-create-branch.sh"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}

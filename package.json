@@ -2,6 +2,8 @@
   "name": "react-news",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://karthikgit47.github.io/Karthik-Dev",
+
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -15,6 +17,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "auto:git": "chokidar \"src/**/*\" -i \"**/node_modules/**\" -c \"git add . && git commit -m autosave && git push\""
@@ -38,6 +42,7 @@
     ]
   },
   "devDependencies": {
-    "chokidar-cli": "^3.0.0"
+    "chokidar-cli": "^3.0.0",
+    "gh-pages": "^6.3.0"
   }
 }
